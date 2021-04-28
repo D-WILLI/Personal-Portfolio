@@ -101,12 +101,19 @@ h2{
 
 }
 
-
-.Grid p{ 
+.gridSection h3{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: gray;
+}
+.gridSection p{ 
     text-align: center;
     font-family: 'Amatic SC', cursive;
     background-color:rgba(255, 255, 255, .6);
     font-size: 20px; 
+    margin-top: 40%;
 }
 /* 
 .gridSection:hover{
@@ -126,6 +133,7 @@ h2{
     width: 190%;
     height: 300px;
     margin: 0%;
+    margin-bottom: 5%;
     padding: 0%;
     margin-left: -40%;
 }
@@ -158,13 +166,14 @@ h2{
     width: 190%;
     height: 300px;
     margin: 0%;
+    margin-bottom: 5%;
     padding: 0%;
     margin-left: -40%;
 }
 
 .grid-item4{
-    background-image:url("https://images.unsplash.com/photo-1597435877852-97c68cc4d8da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
-    background-size: 750px;
+    background-image:url("https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1825&q=80");
+    background-size: 550px;
     background-repeat: no-repeat;
     border:lightgray 5px solid; 
     /* display: flex;
