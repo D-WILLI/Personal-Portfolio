@@ -124,7 +124,7 @@ h2{
 } */
 
 .grid-item1{
-    background-image:url("https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=692&q=80");
+    background-image:url("assets/Wedding\ Application.png");
     background-size: 550px;
     background-repeat: no-repeat;
     border:lightgray 5px solid; 
@@ -141,7 +141,7 @@ h2{
 /* Image for the 2nd Grid section  */
 
 .grid-item2{
-    background-image:url("https://images.unsplash.com/photo-1560131930-485758fc17b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-image:url("assets/Weather\ Application.png");
     background-size: 550px;
     background-repeat: no-repeat;
     border:lightgray 5px solid; 
@@ -157,7 +157,7 @@ h2{
 /* Image for the 3rd Grid section  */
 
 .grid-item3{
-    background-image:url("https://images.unsplash.com/photo-1597435877852-97c68cc4d8da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80");
+    background-image:url("assets/Recipie\ Box\ Image.png");
     background-size: 550px;
     background-repeat: no-repeat;
     border:lightgray 5px solid; 
@@ -172,7 +172,7 @@ h2{
 }
 
 .grid-item4{
-    background-image:url("https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1825&q=80");
+    background-image:url("assets/Password\ Generator.png");
     background-size: 550px;
     background-repeat: no-repeat;
     border:lightgray 5px solid; 
@@ -237,3 +237,16 @@ footer .container-fluid{
 .projects{
     margin-bottom: 20%;
 }
+
+
+/* backup images 
+https://images.unsplash.com/photo-1560131930-485758fc17b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+
+
+https://images.unsplash.com/photo-1597435877852-97c68cc4d8da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+
+https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1825&q=80
+
+https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=692&q=80
+
+*/
