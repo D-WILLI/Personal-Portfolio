@@ -70,7 +70,8 @@ a:hover{
     /* margin: 1px 50px; */
     background-color: rgb(234, 207, 208);
     text-align: center;
-    margin-right:  -1%;
+
+    /* margin-right:  -1%; */
     /* background-color: white; */
     /* display: flex; */
     /* flex-direction: row; */
@@ -298,3 +299,44 @@ color: whitesmoke;
 margin: 0% 35%;
 
 }
+
+
+@media only screen and (max-width: 700px) {
+    body {
+      background-color:darkblue
+    }
+
+    h1{
+        color: rgb(234, 207, 208);
+        text-align: center;
+        font-size: 100px;
+        font-family: 'Sacramento', cursive; 
+        font-weight: bold;
+        text-shadow: gray ;
+        /* background-color: */
+        /* margin-left: 35%; */
+        margin-right: 80%;
+        margin: auto;
+        margin-top: 4% ;
+      
+    }
+
+    .personalpic{
+        margin: 0% 40%;
+        margin-top: 3%; 
+        border-radius: 80%;
+        width: 30%;
+    
+    }
+
+    h5{
+        font-family: 'Sacramento', cursive; 
+        font-size: 1.5rem;
+        display: inline-block;
+        /* padding: 1% 0%; */
+        
+    
+    }
+
+
+  }
