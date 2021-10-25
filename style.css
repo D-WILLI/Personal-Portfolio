@@ -20,15 +20,15 @@ h1{
     margin-right: 25%;
     margin: auto;
     margin-top: 4% ;
-  
+
 }
 
-/* h4{
+h4{
     text-align: center;
     margin-bottom: 7%;
     font-family: 'Amatic SC', cursive;
     font-size: 2.5rem;
-} */
+}
 
  nav{
     background-color: white;
@@ -220,14 +220,14 @@ h2{
     
 }
 
-.nav-link{
+/* .nav-link{
     border-radius: 50%;
     display: inline-block;
     padding-bottom: 5%; 
   
 
 
-}
+} */
 
 .col-8{
     width: 100%;
@@ -297,17 +297,37 @@ https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MX
 
 */
 .display-5{
-color: whitesmoke;
+color:white;
 margin: 0% 35%;
 display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    text-align:center; 
+    font-size: 2.5rem;
+    /* display: inline; */
+    font-family: 'Sacramento', cursive; 
+    /* margin-left: 35%;
+    margin-right: 35%; */
+    margin-top: 40%;
+   
 
 }
 
-a{
-    width: 8%;
-    font-size: 10%;
+.line{
+    margin: 0% 35%;
+    color: white;
+
+}
+
+#socials{
+    width: 5%;
+    font-size: 5%;
+    display: inline-block;
+    padding: 0% 0%;
+    margin: -1% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center; 
    
     
 }
@@ -317,6 +337,22 @@ a{
   
 }
 @media only screen and (max-width: 700px) {
+    body {
+      background-color: rgb(234, 207, 208);;  
+    }
+
+    #skills-container{
+        margin-bottom: 10%;
+        background-color: white;
+    }
+
+    #skills{
+        margin-top: 25%;
+    }
+    
+   .project{
+        background-color: white;
+    }
     h1{
         color: rgb(234, 207, 208);
         text-align: center;
@@ -349,5 +385,43 @@ a{
     
     }
 
+    #socials{
+        width: 15%;
+        font-size: 15%;
+        display: inline-block;
+        margin-bottom: 7%;
+        /* margin-left: auto;
+        margin-right: auto;
+        text-align:center;  */
+       
+        
+    }
+
+    .display-5{
+        margin-top: -30%;
+    }
+
+    .imagelink{
+        width: 90%;
+      
+    }
+
+    footer .container-fluid{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5%;
+        padding: 0%;
+        margin-left: 20%;
+        margin-right: 10%;
+        text-align: center;
+        
+    }
+
+    footer a{
+        text-decoration: none;
+        color:black;
+        margin: 2% 25%;
+    } 
 
   }
