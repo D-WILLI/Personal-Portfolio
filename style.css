@@ -1,6 +1,4 @@
-body{
-  
-}
+
 
 .diving{
     background-color: rgb(234, 207, 208);
@@ -39,7 +37,7 @@ h1{
     /* box-shadow:lightgray 5px 5px; */
 } 
 #navlinks{
-justify-content: right;
+/* justify-content: right; */
 }
 
 /* .navbar-nav{
@@ -161,7 +159,7 @@ h2{
     background-image:url("assets/Wedding\ Application.png");
     background-size: 550px;
     background-repeat: no-repeat;
-    border:lightgray 5px solid; 
+    /* border:lightgray 5px solid;  */
     /* display: flex; */
     /* flex-wrap: wrap; */
     width: 190%;
@@ -178,7 +176,7 @@ h2{
     background-image:url("assets/Weather\ Application.png");
     background-size: 550px;
     background-repeat: no-repeat;
-    border:lightgray 5px solid; 
+    /* border:lightgray 5px solid;  */
     /* display: flex;
     flex-wrap: wrap; */
     width: 190%;
@@ -194,7 +192,7 @@ h2{
     background-image:url("assets/Recipie\ Box\ Image.png");
     background-size: 550px;
     background-repeat: no-repeat;
-    border:lightgray 5px solid; 
+    /* border:lightgray 5px solid;   */
     /* display: flex;
     flex-wrap: wrap; */
     width: 190%;
@@ -209,7 +207,7 @@ h2{
     background-image:url("assets/Password\ Generator.png");
     background-size: 550px;
     background-repeat: no-repeat;
-    border:lightgray 5px solid; 
+    /* border:lightgray 5px solid;  */
     /* display: flex;
     flex-wrap: wrap; */
     width: 190%;
@@ -234,7 +232,7 @@ h2{
 }
 
 .container .headers{
-    border-right: 3px solid rgb(234, 207, 208);
+    /* border-right: 3px solid rgb(234, 207, 208); */
 }
 
 .row{
