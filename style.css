@@ -1,15 +1,23 @@
 body{
+  
+}
+
+.diving{
     background-color: rgb(234, 207, 208);
 }
 
+.aboutme{
+    background-color: rgb(234, 207, 208); 
+}
+
 h1{
-    color: white;
+    color: rgb(234, 207, 208);
     text-align: center;
     font-size: 120px;
     font-family: 'Sacramento', cursive; 
     font-weight: bold;
-    text-shadow: rosybrown 12px 12px ;
-    background-color: rgb(234, 207, 208);
+    text-shadow: gray ;
+    /* background-color: */
     margin-left: 25%;
     margin-right: 25%;
     margin: auto;
@@ -17,30 +25,35 @@ h1{
   
 }
 
-h4{
+/* h4{
     text-align: center;
     margin-bottom: 7%;
     font-family: 'Amatic SC', cursive;
     font-size: 2.5rem;
-}
+} */
 
  nav{
     background-color: white;
     font-size: 1rem;
-    box-shadow:lightgray 5px 5px;
+   
+    /* box-shadow:lightgray 5px 5px; */
 } 
-
-.navbar-nav{
-    /* text-align: center; */
-    margin-left: 25%;
-    margin-right: 25%;
-    margin: auto;
+#navlinks{
+justify-content: right;
 }
 
+/* .navbar-nav{
+    /* text-align: center; */
+    /* margin-left: 25%;
+    margin-right: 25%;
+    margin: auto;
+} */ 
+
  nav li{
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Amatic SC', cursive;
-    font-size: 25px; 
+    font-size: 20px; 
+    /* justify-content: left; */
 } 
 
 a:hover{
@@ -55,42 +68,53 @@ a:hover{
     padding: 0px 20px;
 }
 
-main .container{
-    /* margin: 30px 70px; */
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 60px;
-    box-shadow: lightgrey 39px 36px;
-    margin-left: 25%;
+#aboutsection{
+    /* margin: 1px 50px; */
+    background-color: rgb(234, 207, 208);
+    text-align: center;
+    /* background-color: white; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* padding: 30px; */
+    /* box-shadow: lightgrey 39px 36px; */
+    /* margin-left: 25%;
     margin-right: 25%;
     margin: auto;
     margin-top: 8%;
-    margin-bottom: 10%;
+    margin-bottom: 10%; */
 }
 
 .personalpic{
-    margin-left: 35%;
-    margin-right: 35%;
+    margin: 0% 40%;
+    margin-top: 3%; 
+    border-radius: 80%;
 
 }
-.aboutp{
+/* .aboutp{
 font-family: 'Sacramento', cursive; 
 margin-left: 40%;
 margin-right: 40%;
 margin-bottom: -1%;
 font-size: 3rem;
-}
+} */
 
 h2{
     text-align:center; 
-    font-size: 4rem;
+    font-size: 2.5rem;
     /* display: inline; */
     font-family: 'Sacramento', cursive; 
     /* margin-left: 35%;
     margin-right: 35%; */
-    /* margin-bottom: 10%; */
+    margin-top: 40%;
    
+}
+
+#skills-container{
+    margin-top: 5%; 
+}
+
+.skills{
+    margin-top: -40%;
 }
 
 .images{
@@ -98,10 +122,20 @@ h2{
     border-left: rgb(234, 207, 208) solid 5px;
     margin: 7px 23px;
     padding: 0px 10px;
+    border-radius: 80%;
 
 }
 
-.gridSection h3{
+.card{
+    display: inline-block;
+    text-align: center;
+    /* margin: 0% 10%; */
+}
+
+.skillsgroup{
+    margin: 0% 6%;
+}
+/* .gridSection h3{
     font-family: 'Amatic SC', cursive;
     text-align: center;
     color: whitesmoke;
@@ -114,7 +148,7 @@ h2{
     background-color:rgba(255, 255, 255, .6);
     font-size: 20px; 
     margin-top: 40%;
-}
+} */
 /* 
 .gridSection:hover{
     zoom: 30%;
@@ -186,6 +220,15 @@ h2{
     
 }
 
+.nav-link{
+    border-radius: 50%;
+    display: inline-block;
+    padding-bottom: 5%; 
+  
+
+
+}
+
 .col-8{
     width: 100%;
 }
@@ -222,6 +265,7 @@ margin: 0% 0%;
 footer a{
     text-decoration: none;
     color:black;
+    margin: 0% 35%;
 } 
 
 footer .container-fluid{
@@ -250,3 +294,8 @@ https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixid=MnwxMjA3fDB8MH
 https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=692&q=80
 
 */
+.display-5{
+color: whitesmoke;
+margin: 0% 35%;
+
+}
