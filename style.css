@@ -1,359 +1,219 @@
+/* ********* whole page design ********* */
 
+    .images{
+        background-color: transparent;
+        border-left: rgb(234, 207, 208) solid 5px;
+        margin: 7px 23px;
+        padding: 0px 10px;
+        border-radius: 80%;
+    }
 
-.diving{
-    background-color: rgb(234, 207, 208);
-}
+    /* this controls all the headings over each section   */
+    h2{
+        text-align:center;  
+        font-size: 2.5rem;
+        font-family: 'Sacramento', cursive; 
+        margin-top: 15%;
+        /* margin-left: 35%;
+        margin-right: 35%; 
+        display: inline; */
+    }
 
-.aboutme{
-    background-color: rgb(234, 207, 208); 
-}
-
-h1{
-    color: rgb(234, 207, 208);
-    text-align: center;
-    font-size: 120px;
-    font-family: 'Sacramento', cursive; 
-    font-weight: bold;
-    text-shadow: gray ;
-    /* background-color: */
-    margin-left: 25%;
-    margin-right: 25%;
-    margin: auto;
-    margin-top: 4% ;
-
-}
-
-h4{
-    text-align: center;
-    margin-bottom: 7%;
-    font-family: 'Amatic SC', cursive;
-    font-size: 2.5rem;
-}
-
- nav{
-    background-color: white;
-    font-size: 1rem;
-   
-    /* box-shadow:lightgray 5px 5px; */
-} 
-#navlinks{
-    margin-left: 30%;
-}
-
-/* .navbar-nav{
-    /* text-align: center; */
-    /* margin-left: 25%;
-    margin-right: 25%;
-    margin: auto;
-} */ 
-
- nav li{
-    /* text-align: center; */
-    font-family: 'Amatic SC', cursive;
-    font-size: 20px; 
-    /* justify-content: left; */
-} 
-
-a:hover{
-    color:lightgray;
-}
-
-.header li:hover{
-    background:rgba(234, 207, 208,.2);
-    color: white;
-    font-size: 3rem;
-    border-radius: 5px; 
-    padding: 0px 20px;
-}
-
-#aboutsection{
-    /* margin: 1px 50px; */
-    background-color: rgb(234, 207, 208);
-    text-align: center;
-
-    /* margin-right:  -1%; */
-    /* background-color: white; */
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* padding: 30px; */
-    /* box-shadow: lightgrey 39px 36px; */
-    /* margin-left: 25%;
-    margin-right: 25%;
-    margin: auto;
-    margin-top: 8%;
-    margin-bottom: 10%; */
-}
-
-.personalpic{
-    margin: 0% 40%;
-    margin-top: 3%; 
-    border-radius: 80%;
-
-}
-/* .aboutp{
-font-family: 'Sacramento', cursive; 
-margin-left: 40%;
-margin-right: 40%;
-margin-bottom: -1%;
-font-size: 3rem;
-} */
-
-h2{
-    text-align:center; 
-    font-size: 2.5rem;
-    /* display: inline; */
-    font-family: 'Sacramento', cursive; 
-    /* margin-left: 35%;
-    margin-right: 35%; */
-    margin-top: 15%;
+    /* controls the design for all the hr lines on the page  */
+    .line{
+        margin: 0% 35%;
+        color: white;
     
-   
-}
+    }
 
-#skills-container{
-    margin-top: 5%; 
-}
 
-.skills{
-    margin-top: -40%;
-}
+/* ********* Heading and Nav Bar *********  */
 
-.images{
-    background-color: transparent;
-    border-left: rgb(234, 207, 208) solid 5px;
-    margin: 7px 23px;
-    padding: 0px 10px;
-    border-radius: 80%;
+    /* this is for my name in nav bar  */
+    h1{
+        color: rgb(234, 207, 208);
+        text-align: center;
+        font-size: 120px;
+        font-family: 'Sacramento', cursive; 
+        font-weight: bold;
+        text-shadow: gray ;
+        /* background-color: */
+        margin-left: 25%;
+        margin-right: 25%;
+        margin: auto;
+        margin-top: 4% ;
+    
+    }
 
-}
+    /* decoration for the nav bar links  */
+    nav{
+        background-color: white;
+        font-size: 1rem;
+       
+        /* box-shadow:lightgray 5px 5px; */
+    } 
+    #navlinks{
+        margin-left: 30%;
+    }
+    h4{
+        text-align: center;
+        margin-bottom: 7%;
+        font-family: 'Amatic SC', cursive;
+        font-size: 2.5rem;
+    }
 
-.card{
-    display: inline-block;
-    text-align: center;
-    /* margin: 0% 10%; */
-}
+    /* decoration for when the nav bar items are hovered over  */
+    nav li{
+        /* text-align: center; */
+        font-family: 'Amatic SC', cursive;
+        font-size: 20px; 
+        /* justify-content: left; */
+    } 
+    
+    a:hover{
+        color:lightgray;
+    }
+    
+    .header li:hover{
+        background:rgba(234, 207, 208,.2);
+        color: white;
+        font-size: 3rem;
+        border-radius: 5px; 
+        padding: 0px 20px;
+    }
 
-.skillsgroup{
-    margin: 0% 6%;
-}
-/* .gridSection h3{
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    color: whitesmoke;
+
+
+/* ********* About Me *********  */
+
+    /* this decorates the entire about me section  */
+    
+
+    #aboutsection{
+        /* margin: 1px 50px; */
+        background-color: rgb(234, 207, 208);
+        text-align: center;
+    }
+
+    /* this controls my personal picture  */
+    .personalpic{
+        margin: 0% 40%;
+        margin-top: 3%; 
+        border-radius: 80%;
+    
+    }
+
+
+/* ********* Skills ********* */
+
+    #skills-container{
+        margin-top: 5%; 
+    }
+
+    .card{
+        display: inline-block;
+        text-align: center;
+        /* margin: 0% 10%; */
+    }
+
+    .skillsgroup{
+        margin: 0% 6%;
+    }
+
+    .card-title{
     text-decoration: none;
-    background-color: gray;
-}
-.gridSection p{ 
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    background-color:rgba(255, 255, 255, .6);
-    font-size: 20px; 
-    margin-top: 40%;
-} */
-/* 
-.gridSection:hover{
-    zoom: 30%;
-    display:block; 
-    font-size: 130px;
-    font-family: Arial, Helvetica, sans-serif;
-} */
+    }
 
-.grid-item1{
-    background-image:url("assets/Wedding\ Application.png");
-    background-size: 550px;
-    background-repeat: no-repeat;
-    /* border:lightgray 5px solid;  */
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    width: 190%;
-    height: 300px;
-    margin: 0%;
-    margin-bottom: 5%;
-    padding: 0%;
-    margin-left: -40%;
-}
+    .skills{
+        margin-top: -40%;
+    }
 
-/* Image for the 2nd Grid section  */
+    /* this centers the cards in skills  */
+    .row{
+        margin: 0% 10%; 
+    }
 
-.card-title{
-text-decoration: none;
-}
-.grid-item2{
-    background-image:url("assets/Weather\ Application.png");
-    background-size: 550px;
-    background-repeat: no-repeat;
-    /* border:lightgray 5px solid;  */
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 190%;
-    height: 300px;
-    margin: 0%;
-    padding: 0%;
-    margin-left: -40%;
-}
+/* ********* Projects *********  */
 
-/* Image for the 3rd Grid section  */
+    /* decoration for the cards that hold the projects  */
+    #projects-box{
+      border:lightgray 2px solid;
+    }
 
-.grid-item3{
-    background-image:url("assets/Recipie\ Box\ Image.png");
-    background-size: 550px;
-    background-repeat: no-repeat;
-    /* border:lightgray 5px solid;   */
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 190%;
-    height: 300px;
-    margin: 0%;
-    margin-bottom: 5%;
-    padding: 0%;
-    margin-left: -40%;
-}
+    .projects{
+        margin-bottom: 20%;
+    }
 
-.grid-item4{
-    background-image:url("assets/Password\ Generator.png");
-    background-size: 550px;
-    background-repeat: no-repeat;
-    /* border:lightgray 5px solid;  */
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 190%;
-    height: 300px;
-    margin: 0%;
-    padding: 0%;
-    margin-left: -40%;
-    
-}
+    .project{
+        margin-top: 600%; 
+    }
 
-/* .nav-link{
-    border-radius: 50%;
-    display: inline-block;
-    padding-bottom: 5%; 
+    /* this controls the project title on the card  */
+    h5{
+        font-family: 'Sacramento', cursive; 
+        font-size: 2rem;
+        padding: 1% 0%;
+    }
+
+/* ********* Contact ********* */
+
+    /* this decorates the entire contact section */
+    .diving{
+    background-color: rgb(234, 207, 208);
+    }
+
+    /* this is the text decoration for the contact heading  */
+    .display-5{
+        color: black;
+        text-align:center; 
+        font-size: 2.5rem;
+        /* display: inline; */
+        font-family: 'Sacramento', cursive; 
+        /* margin-left: 35%;
+        margin-right: 35%; */
+        margin-top: 15%; 
+    }
+
+    /* this controls the social media icons  */
+    #socials{
+        width: 20%;
+        font-size: 5%;
+        padding: 0% 0%;
+        /* margin: -1% 0%;  */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* text-align:center;  */
+        /* display: inline-block; */
+        
+    }
+
+    /* this controls the size of the social media link icons  */
+    .imagelink{
+         width: 150%;
   
+    }
 
-
-} */
-
-#projects-box{
-    border:lightgray 2px solid;
-}
-.col-8{
-    width: 100%;
-}
-
-.container .headers{
-    /* border-right: 3px solid rgb(234, 207, 208); */
-}
-
-.row{
-    margin: 0% 10%;
-    
-}
-
-.justify-content-center{
-    /* text-align: center; */
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 0%;
-}
-
-h5{
-    font-family: 'Sacramento', cursive; 
-    font-size: 2rem;
-    padding: 1% 0%;
-    
-
-}
-
-/* .nav-link{
-padding: 1% 0%;
-margin: 0% 0%;
-} */
-
-footer a{
-    text-decoration: none;
-    color:black;
-    margin: 0% 35%;
-} 
-
-footer .container-fluid{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -1%;
-    padding: 0%;
-    margin-left: 20%;
-    margin-right: 10%;
-    text-align: center;
-    
-}
-
-.projects{
-    margin-bottom: 20%;
-}
-.project{
-margin-top: 600%; 
-}
-
-/* backup images 
-https://images.unsplash.com/photo-1560131930-485758fc17b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-
-
-https://images.unsplash.com/photo-1597435877852-97c68cc4d8da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
-
-https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1825&q=80
-
-https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=692&q=80
-
-*/
-.display-5{
-color: black;
-    text-align:center; 
-    font-size: 2.5rem;
-    /* display: inline; */
-    font-family: 'Sacramento', cursive; 
-    /* margin-left: 35%;
-    margin-right: 35%; */
-    margin-top: 15%;
-
-/* color:rgb(234, 207, 208)
-margin: 0% 35%;
-display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center; 
-    font-size: 2.5rem;
-    /* display: inline; */
-    /* font-family: 'Sacramento', cursive; 
-    /* margin-left: 35%; */
-    /* margin-right: 35%; */
-    /* margin-top: 40%; */ 
-   
-
-}
-
-.line{
-    margin: 0% 35%;
-    color: white;
-
-}
-
-#socials{
-    width: 5%;
-    font-size: 5%;
-    display: inline-block;
-    padding: 0% 0%;
-    margin: -1% 0%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align:center; 
-   
-    
-}
-
-.imagelink{
-    width: 150%;
+/*  ********* Footer *********  */
   
-}
+    footer a{
+        text-decoration: none;
+        color:black;
+        margin: 0% 35%;
+    } 
+
+    footer .container-fluid{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -1%;
+        padding: 0%;
+        margin-left: 20%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+
+/* ********* Mobile Sizing ********* */
 @media only screen and (max-width: 700px) {
     body {
       background-color: rgb(234, 207, 208);;  
@@ -443,3 +303,162 @@ display: block;
     } 
 
   }
+
+
+
+/* ************************************************************************************************
+OLD CODE SECTION
+
+  /* .gridSection h3{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: gray;
+}
+.gridSection p{ 
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    background-color:rgba(255, 255, 255, .6);
+    font-size: 20px; 
+    margin-top: 40%;
+} */
+/* 
+.gridSection:hover{
+    zoom: 30%;
+    display:block; 
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .grid-item1{
+    background-image:url("assets/Wedding\ Application.png");
+    background-size: 550px;
+    background-repeat: no-repeat; */
+    /* border:lightgray 5px solid;  */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* width: 190%;
+    height: 300px;
+    margin: 0%;
+    margin-bottom: 5%;
+    padding: 0%;
+    margin-left: -40%;
+} */
+
+/* Image for the 2nd Grid section  */
+/* backup images 
+https://images.unsplash.com/photo-1560131930-485758fc17b7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+
+
+https://images.unsplash.com/photo-1597435877852-97c68cc4d8da?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80"
+
+https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1825&q=80
+
+https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=692&q=80
+/* .grid-item2{
+    background-image:url("assets/Weather\ Application.png");
+    background-size: 550px;
+    background-repeat: no-repeat; */
+    /* border:lightgray 5px solid;  */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* width: 190%;
+    height: 300px;
+    margin: 0%;
+    padding: 0%;
+    margin-left: -40%;
+} */
+
+/* Image for the 3rd Grid section  */
+
+/* .grid-item3{
+    background-image:url("assets/Recipie\ Box\ Image.png");
+    background-size: 550px;
+    background-repeat: no-repeat; */
+    /* border:lightgray 5px solid;   */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* width: 190%;
+    height: 300px;
+    margin: 0%;
+    margin-bottom: 5%;
+    padding: 0%;
+    margin-left: -40%;
+} */
+
+/* .grid-item4{
+    background-image:url("assets/Password\ Generator.png");
+    background-size: 550px;
+    background-repeat: no-repeat;
+    /* border:lightgray 5px solid;  */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* width: 190%;
+    height: 300px;
+    margin: 0%;
+    padding: 0%;
+    margin-left: -40%; */
+    
+/* } */ 
+
+/* .aboutme{
+        background-color: rgb(234, 207, 208); 
+         /* margin-right:  -1%; */
+        /* background-color: white; */
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* padding: 30px; */
+        /* box-shadow: lightgrey 39px 36px; */
+        /* margin-left: 25%;
+        margin-right: 25%;
+        margin: auto;
+        margin-top: 8%;
+        margin-bottom: 10%;
+}
+/* .aboutp{
+font-family: 'Sacramento', cursive; 
+margin-left: 40%;
+margin-right: 40%;
+margin-bottom: -1%;
+font-size: 3rem;
+} 
+
+
+.navbar-nav{
+    text-align: center; 
+   margin-left: 25%;
+    margin-right: 25%;
+    margin: auto;
+}
+
+/* .nav-link{
+    border-radius: 50%;
+    display: inline-block;
+    padding-bottom: 5%; 
+} 
+
+.col-8{
+    width: 100%;
+}
+/* .container .headers{
+    /* border-right: 3px solid rgb(234, 207, 208); 
+} 
+
+/* .nav-link{
+padding: 1% 0%;
+margin: 0% 0%;
+} 
+.justify-content-center{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0%;
+}*/
+
+
+
+
+
+
+
+
