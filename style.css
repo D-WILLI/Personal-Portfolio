@@ -299,7 +299,7 @@
     footer a{
         text-decoration: none;
         color:black;
-        margin: 2% 25%;
+        margin: 2% 0%;
     } 
 
   }
@@ -373,7 +373,7 @@ https://images.unsplash.com/photo-1549782680-6c0bc6c40c90?ixlib=rb-1.2.1&ixid=MX
 /* Image for the 3rd Grid section  */
 
 /* .grid-item3{
-    background-image:url("assets/Recipie\ Box\ Image.png");
+    background-image:url("assets/Recipe\ Box\ Image.png");
     background-size: 550px;
     background-repeat: no-repeat; */
     /* border:lightgray 5px solid;   */
