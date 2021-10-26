@@ -37,7 +37,7 @@ h4{
     /* box-shadow:lightgray 5px 5px; */
 } 
 #navlinks{
-/* justify-content: right; */
+    margin-left: 30%;
 }
 
 /* .navbar-nav{
